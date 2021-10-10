@@ -15,7 +15,7 @@ public class Main {
         boolean containsWorld = myList.contains("World");
         String s = myList.toString();
         System.out.println(s + "\n"+ containsWorld);
-
+	//you'd have to redirect this to the path of the .txt file you're seeking. 
         File item = new File("/Users/admin/IdeaProjects/LinkedListsAreCool/src/item");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(item));
         String st;
